@@ -1,6 +1,8 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
+import koreanize_matplotlib
+import plotly.express as px
 
 # Load the dataset
 file_path = 'daily_temp.csv'
